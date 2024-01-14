@@ -872,7 +872,7 @@ Google Snappy
 ************************************************************************************
 ************************************************************************************
 
-Mapbase integrates a few additional third-party libraries, all of which are from free and/or
+Mapbase & Mapbase++ integrates a few additional third-party libraries, all of which are from free and/or
 open-source projects operating under MIT licenses. They can be used in any mod or commercial
 product as long as the given notices are present here or elsewhere.
 
@@ -899,3 +899,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+
