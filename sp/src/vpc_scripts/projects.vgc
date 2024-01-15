@@ -121,6 +121,11 @@ $Project "vscript"
 	"vscript\vscript.vpc"
 }
 
+$Project "vrml"
+{
+	"vrml\vrml.vpc"
+}
+
 $Project "vtf2tga"
 {
 	"utils\vtf2tga\vtf2tga.vpc" [$WIN32]

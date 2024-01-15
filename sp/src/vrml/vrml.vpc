@@ -1,0 +1,34 @@
+//-----------------------------------------------------------------------------
+//	VRML.VPC
+//
+//	Project Script
+//-----------------------------------------------------------------------------
+
+$macro SRCDIR ".."
+
+$include "$SRCDIR\vpc_scripts\source_lib_base.vpc"
+
+$Configuration
+{
+	$Compiler
+	{
+		$AdditionalIncludeDirectories	"$BASE;.\RML\Include\"
+		$PreprocessorDefinitions		"$BASE;MAPBASE_VRML"		[$MAPBASE_VRML]
+	}
+
+	$Librarian [$WINDOWS]
+	{
+		$AdditionalDependencies			"$BASE;.\RML\Bin\Static-Release\RmlCore.lib"
+        $AdditionalDependencies			"$BASE;.\RML\Bin\Static-Release\RmlDebugger.lib"
+	}
+
+}
+
+$Project "VRML"
+{
+    $Folder "Source Files"
+    {
+        $File "vrml.cpp"
+        $File "vrml.h"
+    }
+}
